@@ -5,7 +5,6 @@ from rich import print
 from rich.progress import track
 import requests, sys, getopt
 
-
 class ResolveSubdomains(Thread):
     def __init__(self):
         Thread.__init__(self)

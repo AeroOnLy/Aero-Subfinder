@@ -23,11 +23,11 @@ class ResolveSubdomains(Thread):
             try:
                 request = requests.get(request_url)
                 if request.status_code == 200:
-                    print("[+] {} »» Subdomain Active! [green]✔️".format(request_url))
+                    print("[+] {} »» Subdomain Active! [green]✔".format(request_url))
                     count += 1
 
             except requests.ConnectionError:   
-                print("[-] {} »» Subdomain Not Active! [red]✖️".format(request_url))
+                print("[-] {} »» Subdomain Not Active! [red]✘".format(request_url))
                 pass
         print("\n{} Subdomains Found".format(count))
 

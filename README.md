@@ -32,10 +32,10 @@ python3 -m pip install -r requirements.txt # Install pip dependencies
 
 #### Windows
 1. Download and install [Python 3](https://www.python.org/downloads/) (make sure to add Python and Pip to your PATH)
-2. Download [the sDFT repository](https://github.com/dox-dev/SubDomains-Finder-Tool/archive/refs/heads/main.zip)
+2. Download [the sDFT repository](https://github.com/AeroOnLy/Aero-Subfinder/archive/refs/heads/main.zip)
 3. Extract the zip archive you've downloaded and open the folder in command prompt
 4. In command prompt type `python -m pip install -r requirements.txt` to install required pip dependencies
-5. After doing this, you can use the tool by typing `python main.py --url="your_targeted_website"`
+5. After doing this, you can use the tool by typing `python Aero-Subfinder.py --url="your_targeted_website"`
 
 ### Usage
 In command prompt type `python main.py --url="your_targeted_website"`, where "your_targeted_website" is a website you want to target.

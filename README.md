@@ -43,7 +43,3 @@ In command prompt type `python main.py --url="your_targeted_website"`, where "yo
 
 After that, **sDFT** will print all subdomains that resolves with success
 
-##### Footage:
-![](https://i.ibb.co/9cSYBY9/m91m191sahbfasif03.gif)
-
-###### Keep in mind that this tool is in its early development, so there still may be some bugs. Also, the list of subdomains will be gradually updated. Sorry for any inconvenience.

@@ -39,7 +39,7 @@ python3 -m pip install -r requirements.txt # Install pip dependencies
 5. After doing this, you can use the tool by typing `python Aero-Subfinder.py --url="your_targeted_website"`
 
 ### Usage
-In command prompt type `python main.py --url="your_targeted_website"`, where "your_targeted_website" is a website you want to target.
+In command prompt type `python Aero-Subfinder.py --url="your_targeted_website"`, where "your_targeted_website" is a website you want to target.
 [**Remember!** Use URL without `https://www` (for example: **github.com**)]
 
 After that, **sDFT** will print all subdomains that resolves with success
